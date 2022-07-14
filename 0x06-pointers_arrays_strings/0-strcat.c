@@ -3,7 +3,7 @@
  * _strcat - concatenates two strings
  * @dest: the first function arguement
  * @src: the second function arguement
- * Return: 0 if sucessful
+ * Return: two concat strings
  */
 char *_strcat(char *dest, char *src)
 {
@@ -11,6 +11,7 @@ char *_strcat(char *dest, char *src)
 
 	for (i = 0; dest[i] != '\0'; i++)
 	{
+
 	}
 	for (j = 0; src[j] != '\0'; j++)
 	{
@@ -18,5 +19,4 @@ char *_strcat(char *dest, char *src)
 	}
 	dest[i] = '\0';
 	return (dest);
-	_putchar('\n');
 }
