@@ -25,12 +25,10 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	else if
+
+	for (j = 0; j <= i j++)
 	{
-		for (j = 0; j <= i j++)
-		{
-			dstr[j] = str[j];
-		}
+		dstr[j] = str[j];
 	}
 	return (dstr);
 }
