@@ -8,7 +8,8 @@
  */
 char *_strdup(char *str)
 {
-	char *dstr
+	char *dstr;
+	unsigned i;
 
 	if (str == NULL)
 	{
@@ -24,10 +25,12 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-
-	for (j = 0; j <= i j++)
+	else if
 	{
-		dstr[j] = str[j];
+		for (j = 0; j <= i j++)
+		{
+			dstr[j] = str[j];
+		}
 	}
 	return (dstr);
 }
