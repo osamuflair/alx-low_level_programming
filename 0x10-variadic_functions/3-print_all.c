@@ -88,7 +88,7 @@ void print_all(const char * const format, ...)
 		{"s", print_string}
 	};
 
-	va_start(args, format)
+	va_start(args, format);
 
 	while (format && (*(format + i)))
 	{
@@ -106,7 +106,6 @@ void print_all(const char * const format, ...)
 
 		i++;
 	}
-
 	printf("\n");
 
 	va_end(args);
