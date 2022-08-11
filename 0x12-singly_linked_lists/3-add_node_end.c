@@ -1,17 +1,17 @@
-#include "main.h"
+#include "lists.h"
 /**
  * add_node_end - adds a new node at the end of a list_t list
  * @head: first arguement
- * @str second arguement
+ * @str: second arguement
  * Return: the address of the new element, or NULL if it failed
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t new_node = malloc(sizeof(list_t));
-	count = 0;
+	size_t count;
 
 	new_node->str = NULL;
-	
+
 	if ((*head) == NUL)
 	{
 		(*head) = new_node;
