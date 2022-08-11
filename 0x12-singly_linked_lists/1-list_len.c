@@ -1,4 +1,4 @@
-#include "main.h"
+#include "lists.h"
 /**
  * list_len - prints the number of elements in a linked list_t list
  * @h: its arguement
