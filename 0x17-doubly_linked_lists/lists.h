@@ -1,6 +1,8 @@
 #ifndef LISTS_H
 #define LISTS_H
 
+#include <stdio.h>
+#include <stdlib.h>
 /**
  * struct dlistint_s - doubly linked list
  * @n: integer
@@ -11,7 +13,7 @@
  */
 typedef struct dlistint_s
 {
-    size_t n;
+    int n;
     struct dlistint_s *next;
     struct dlistint_s *prev;
 } dlistint_t;
